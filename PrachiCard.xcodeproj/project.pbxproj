@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C1945AF2435DD3C0011DC14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1945AE2435DD3C0011DC14 /* AppDelegate.swift */; };
+		4C1945B12435DD3C0011DC14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1945B02435DD3C0011DC14 /* SceneDelegate.swift */; };
+		4C1945B42435DD3C0011DC14 /* PrachiCard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4C1945B22435DD3C0011DC14 /* PrachiCard.xcdatamodeld */; };
+		4C1945B62435DD3C0011DC14 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1945B52435DD3C0011DC14 /* ContentView.swift */; };
+		4C1945B82435DD3D0011DC14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1945B72435DD3D0011DC14 /* Assets.xcassets */; };
+		4C1945BB2435DD3D0011DC14 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C1945BA2435DD3D0011DC14 /* Preview Assets.xcassets */; };
+		4C1945BE2435DD3D0011DC14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C1945BC2435DD3D0011DC14 /* LaunchScreen.storyboard */; };
+		4C1945C92435DD3D0011DC14 /* PrachiCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1945C82435DD3D0011DC14 /* PrachiCardTests.swift */; };
+		4C1945D42435DD3D0011DC14 /* PrachiCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1945D32435DD3D0011DC14 /* PrachiCardUITests.swift */; };
+		4C1945E32435E7C80011DC14 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1945E22435E7C80011DC14 /* Pacifico-Regular.ttf */; };
+		4C1945E42435E7C80011DC14 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1945E22435E7C80011DC14 /* Pacifico-Regular.ttf */; };
+		4C1945E52435E7C80011DC14 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C1945E22435E7C80011DC14 /* Pacifico-Regular.ttf */; };
+		4C1945E724360F7F0011DC14 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1945E624360F7F0011DC14 /* InfoView.swift */; };
+		4C1945E824360F7F0011DC14 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1945E624360F7F0011DC14 /* InfoView.swift */; };
+		4C1945E924360F7F0011DC14 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C1945E624360F7F0011DC14 /* InfoView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C1945C52435DD3D0011DC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1945A32435DD3C0011DC14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1945AA2435DD3C0011DC14;
+			remoteInfo = PrachiCard;
+		};
+		4C1945D02435DD3D0011DC14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C1945A32435DD3C0011DC14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C1945AA2435DD3C0011DC14;
+			remoteInfo = PrachiCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C1945AB2435DD3C0011DC14 /* PrachiCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrachiCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1945AE2435DD3C0011DC14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C1945B02435DD3C0011DC14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4C1945B32435DD3C0011DC14 /* PrachiCard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PrachiCard.xcdatamodel; sourceTree = "<group>"; };
+		4C1945B52435DD3C0011DC14 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4C1945B72435DD3D0011DC14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C1945BA2435DD3D0011DC14 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4C1945BD2435DD3D0011DC14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C1945BF2435DD3D0011DC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1945C42435DD3D0011DC14 /* PrachiCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrachiCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1945C82435DD3D0011DC14 /* PrachiCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrachiCardTests.swift; sourceTree = "<group>"; };
+		4C1945CA2435DD3D0011DC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1945CF2435DD3D0011DC14 /* PrachiCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrachiCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C1945D32435DD3D0011DC14 /* PrachiCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrachiCardUITests.swift; sourceTree = "<group>"; };
+		4C1945D52435DD3D0011DC14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C1945E22435E7C80011DC14 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		4C1945E624360F7F0011DC14 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C1945A82435DD3C0011DC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1945C12435DD3D0011DC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1945CC2435DD3D0011DC14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C1945A22435DD3C0011DC14 = {
+			isa = PBXGroup;
+			children = (
+				4C1945AD2435DD3C0011DC14 /* PrachiCard */,
+				4C1945C72435DD3D0011DC14 /* PrachiCardTests */,
+				4C1945D22435DD3D0011DC14 /* PrachiCardUITests */,
+				4C1945AC2435DD3C0011DC14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C1945AC2435DD3C0011DC14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C1945AB2435DD3C0011DC14 /* PrachiCard.app */,
+				4C1945C42435DD3D0011DC14 /* PrachiCardTests.xctest */,
+				4C1945CF2435DD3D0011DC14 /* PrachiCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C1945AD2435DD3C0011DC14 /* PrachiCard */ = {
+			isa = PBXGroup;
+			children = (
+				4C1945E12435E77E0011DC14 /* Fonts */,
+				4C1945AE2435DD3C0011DC14 /* AppDelegate.swift */,
+				4C1945B02435DD3C0011DC14 /* SceneDelegate.swift */,
+				4C1945B52435DD3C0011DC14 /* ContentView.swift */,
+				4C1945E624360F7F0011DC14 /* InfoView.swift */,
+				4C1945B72435DD3D0011DC14 /* Assets.xcassets */,
+				4C1945BC2435DD3D0011DC14 /* LaunchScreen.storyboard */,
+				4C1945BF2435DD3D0011DC14 /* Info.plist */,
+				4C1945B22435DD3C0011DC14 /* PrachiCard.xcdatamodeld */,
+				4C1945B92435DD3D0011DC14 /* Preview Content */,
+			);
+			path = PrachiCard;
+			sourceTree = "<group>";
+		};
+		4C1945B92435DD3D0011DC14 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4C1945BA2435DD3D0011DC14 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4C1945C72435DD3D0011DC14 /* PrachiCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1945C82435DD3D0011DC14 /* PrachiCardTests.swift */,
+				4C1945CA2435DD3D0011DC14 /* Info.plist */,
+			);
+			path = PrachiCardTests;
+			sourceTree = "<group>";
+		};
+		4C1945D22435DD3D0011DC14 /* PrachiCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C1945D32435DD3D0011DC14 /* PrachiCardUITests.swift */,
+				4C1945D52435DD3D0011DC14 /* Info.plist */,
+			);
+			path = PrachiCardUITests;
+			sourceTree = "<group>";
+		};
+		4C1945E12435E77E0011DC14 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4C1945E22435E7C80011DC14 /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C1945AA2435DD3C0011DC14 /* PrachiCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1945D82435DD3D0011DC14 /* Build configuration list for PBXNativeTarget "PrachiCard" */;
+			buildPhases = (
+				4C1945A72435DD3C0011DC14 /* Sources */,
+				4C1945A82435DD3C0011DC14 /* Frameworks */,
+				4C1945A92435DD3C0011DC14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrachiCard;
+			productName = PrachiCard;
+			productReference = 4C1945AB2435DD3C0011DC14 /* PrachiCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C1945C32435DD3D0011DC14 /* PrachiCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1945DB2435DD3D0011DC14 /* Build configuration list for PBXNativeTarget "PrachiCardTests" */;
+			buildPhases = (
+				4C1945C02435DD3D0011DC14 /* Sources */,
+				4C1945C12435DD3D0011DC14 /* Frameworks */,
+				4C1945C22435DD3D0011DC14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1945C62435DD3D0011DC14 /* PBXTargetDependency */,
+			);
+			name = PrachiCardTests;
+			productName = PrachiCardTests;
+			productReference = 4C1945C42435DD3D0011DC14 /* PrachiCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C1945CE2435DD3D0011DC14 /* PrachiCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C1945DE2435DD3D0011DC14 /* Build configuration list for PBXNativeTarget "PrachiCardUITests" */;
+			buildPhases = (
+				4C1945CB2435DD3D0011DC14 /* Sources */,
+				4C1945CC2435DD3D0011DC14 /* Frameworks */,
+				4C1945CD2435DD3D0011DC14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C1945D12435DD3D0011DC14 /* PBXTargetDependency */,
+			);
+			name = PrachiCardUITests;
+			productName = PrachiCardUITests;
+			productReference = 4C1945CF2435DD3D0011DC14 /* PrachiCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C1945A32435DD3C0011DC14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Prachi Modi";
+				TargetAttributes = {
+					4C1945AA2435DD3C0011DC14 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					4C1945C32435DD3D0011DC14 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4C1945AA2435DD3C0011DC14;
+					};
+					4C1945CE2435DD3D0011DC14 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 4C1945AA2435DD3C0011DC14;
+					};
+				};
+			};
+			buildConfigurationList = 4C1945A62435DD3C0011DC14 /* Build configuration list for PBXProject "PrachiCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C1945A22435DD3C0011DC14;
+			productRefGroup = 4C1945AC2435DD3C0011DC14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C1945AA2435DD3C0011DC14 /* PrachiCard */,
+				4C1945C32435DD3D0011DC14 /* PrachiCardTests */,
+				4C1945CE2435DD3D0011DC14 /* PrachiCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C1945A92435DD3C0011DC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1945BE2435DD3D0011DC14 /* LaunchScreen.storyboard in Resources */,
+				4C1945E32435E7C80011DC14 /* Pacifico-Regular.ttf in Resources */,
+				4C1945BB2435DD3D0011DC14 /* Preview Assets.xcassets in Resources */,
+				4C1945B82435DD3D0011DC14 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1945C22435DD3D0011DC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1945E42435E7C80011DC14 /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1945CD2435DD3D0011DC14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1945E52435E7C80011DC14 /* Pacifico-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C1945A72435DD3C0011DC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1945AF2435DD3C0011DC14 /* AppDelegate.swift in Sources */,
+				4C1945B42435DD3C0011DC14 /* PrachiCard.xcdatamodeld in Sources */,
+				4C1945B62435DD3C0011DC14 /* ContentView.swift in Sources */,
+				4C1945E724360F7F0011DC14 /* InfoView.swift in Sources */,
+				4C1945B12435DD3C0011DC14 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1945C02435DD3D0011DC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1945E824360F7F0011DC14 /* InfoView.swift in Sources */,
+				4C1945C92435DD3D0011DC14 /* PrachiCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C1945CB2435DD3D0011DC14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C1945E924360F7F0011DC14 /* InfoView.swift in Sources */,
+				4C1945D42435DD3D0011DC14 /* PrachiCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C1945C62435DD3D0011DC14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1945AA2435DD3C0011DC14 /* PrachiCard */;
+			targetProxy = 4C1945C52435DD3D0011DC14 /* PBXContainerItemProxy */;
+		};
+		4C1945D12435DD3D0011DC14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C1945AA2435DD3C0011DC14 /* PrachiCard */;
+			targetProxy = 4C1945D02435DD3D0011DC14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C1945BC2435DD3D0011DC14 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C1945BD2435DD3D0011DC14 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C1945D62435DD3D0011DC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C1945D72435DD3D0011DC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C1945D92435DD3D0011DC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PrachiCard/Preview Content\"";
+				DEVELOPMENT_TEAM = P6T48K39RQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PrachiCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modi.PrachiCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C1945DA2435DD3D0011DC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"PrachiCard/Preview Content\"";
+				DEVELOPMENT_TEAM = P6T48K39RQ;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = PrachiCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modi.PrachiCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C1945DC2435DD3D0011DC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6T48K39RQ;
+				INFOPLIST_FILE = PrachiCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modi.PrachiCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrachiCard.app/PrachiCard";
+			};
+			name = Debug;
+		};
+		4C1945DD2435DD3D0011DC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6T48K39RQ;
+				INFOPLIST_FILE = PrachiCardTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modi.PrachiCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrachiCard.app/PrachiCard";
+			};
+			name = Release;
+		};
+		4C1945DF2435DD3D0011DC14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6T48K39RQ;
+				INFOPLIST_FILE = PrachiCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modi.PrachiCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrachiCard;
+			};
+			name = Debug;
+		};
+		4C1945E02435DD3D0011DC14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P6T48K39RQ;
+				INFOPLIST_FILE = PrachiCardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.modi.PrachiCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PrachiCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C1945A62435DD3C0011DC14 /* Build configuration list for PBXProject "PrachiCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1945D62435DD3D0011DC14 /* Debug */,
+				4C1945D72435DD3D0011DC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1945D82435DD3D0011DC14 /* Build configuration list for PBXNativeTarget "PrachiCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1945D92435DD3D0011DC14 /* Debug */,
+				4C1945DA2435DD3D0011DC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1945DB2435DD3D0011DC14 /* Build configuration list for PBXNativeTarget "PrachiCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1945DC2435DD3D0011DC14 /* Debug */,
+				4C1945DD2435DD3D0011DC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C1945DE2435DD3D0011DC14 /* Build configuration list for PBXNativeTarget "PrachiCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C1945DF2435DD3D0011DC14 /* Debug */,
+				4C1945E02435DD3D0011DC14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4C1945B22435DD3C0011DC14 /* PrachiCard.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4C1945B32435DD3C0011DC14 /* PrachiCard.xcdatamodel */,
+			);
+			currentVersion = 4C1945B32435DD3C0011DC14 /* PrachiCard.xcdatamodel */;
+			path = PrachiCard.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4C1945A32435DD3C0011DC14 /* Project object */;
+}
